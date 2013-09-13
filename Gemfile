@@ -6,6 +6,9 @@ ruby '1.9.3'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '~>3.0.0'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 gem 'protected_attributes'
 
@@ -42,7 +45,7 @@ group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
 
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
 end
 
